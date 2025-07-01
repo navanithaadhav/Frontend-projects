@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nastra</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+<body>
+    
+  
+    <!--Navbar-->
+    <nav class="navbar">
+      <h1>Nastra</h1>
+      <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collection</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact us</a></p>
+      </div>
+      <div class="navbar-menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!--side navbar-->
+    <div class="side-navbar">
+      <p style="text-align: right" class="xmark">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact us</a></p>
+      </div>
+    </div>
+   <!--contact-->
+   <div class="contact">
+    
+    <form name="feedback" id="form">
+        <h2>Contact Us</h2>
+        <div class="input-groups">
+            <lable for="username">Name</lable>
+            <input type="text" id="username" name="username" required/>
+            <div class="error"></div>
+        </div>
+        <div class="input-groups">
+            <lable for="password">Password</lable>
+            <input type="text" id="password" name="password" required/>
+            <div class="error"></div>
+        </div>
+        <div class="input-groups">
+            <lable for="email">Email</lable>
+            <input type="text" id="email" name="email"required/>
+            <div class="error"></div>
+        </div>
+        <div class="input-groups">
+            <lable for="message">Message</lable>
+            <textarea id="message" rows="4" name="message"></textarea>
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        
+    </form>
+   </div>
+   
+    <!--footer-->
+    <div class="footer">
+    <div class="footer-container">
+      <div class="footer-box1">
+        <h2 class="heading-text">Nastra</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram" style="color:#ffffff"></i>
+            <i class="fa-brands fa-twitter" style="color:#ffffff"></i>
+            <i class="fa-brands fa-facebook" style="color:#ffffff"></i>
+          </div>
+        </p>
+        <p>@2025 nastra.com</p>
+      </div>
+    </div>
+  </div>
+ <script src="script.js"></script>
+ <script src="collection.html"></script>
+ <script src="contact.js"></script>
+</body>
+</html>
